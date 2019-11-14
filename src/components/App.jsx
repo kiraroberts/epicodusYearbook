@@ -16,9 +16,10 @@ function App(){
       <Switch>
         <Route exact path="/" component={Home} />
         <div className="row">
-        <Route path ='/Yearbook' component={StudentList} />
+          <Route path ='/Yearbook' component={StudentList} />
+          <Route path ='/Teachers' component={TeacherList} />
         </div>
-        <Route path ='/Teachers' component={TeacherList} />
+
         <Route component={Error404} />
       </Switch>
     </div>

@@ -11,13 +11,13 @@ function Student(props) {
     marginRight: "auto",
   };
   var studentStyle = {
-     width: "300px",
-     height: "400px",
-     textAlign: "center",
+    width: "300px",
+    height: "400px",
+    textAlign: "center",
     // padding: "15",
-     backgroundColor: "blanchedalmond",
-     margin: "5px",
-  }
+    backgroundColor: "blanchedalmond",
+    margin: "5px",
+  };
   var galleryStyle = {
     // margin: "0 auto 0 auto",
   };
@@ -27,7 +27,7 @@ function Student(props) {
     justifyContent: "center",
         
     // margin: "1% 1%",
-     //display: "flex",
+    //display: "flex",
   };
   return(
     
