@@ -15,7 +15,9 @@ function App(){
       <NavBar/>
       <Switch>
         <Route exact path="/" component={Home} />
+        <div className="row">
         <Route path ='/Yearbook' component={StudentList} />
+        </div>
         <Route path ='/Teachers' component={TeacherList} />
         <Route component={Error404} />
       </Switch>

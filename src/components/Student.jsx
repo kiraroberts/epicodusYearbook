@@ -7,32 +7,33 @@ function Student(props) {
     width: "200px",
     maxHeight: "200px",
     backgroundColor: "blanchedalmond",
+    marginLeft: "auto",
+    marginRight: "auto",
   };
   var studentStyle = {
-    width: "300px",
-    height: "300px",
-    textAlign: "center",
-    // order: "0",
-    padding: "15",
-    // alignSelf: "center",
+     width: "300px",
+     height: "400px",
+     textAlign: "center",
+    // padding: "15",
+     backgroundColor: "blanchedalmond",
+     margin: "5px",
   }
   var galleryStyle = {
-    margin: "0 auto 0 auto",
-    backgroundColor: "blanchedalmond"
+    // margin: "0 auto 0 auto",
   };
   var contentStyle = {
     display: "inline-flex",
     alignItems: "center",
     justifyContent: "center",
         
-    margin: "1% 1%",
-    // display: "flex",
+    // margin: "1% 1%",
+     //display: "flex",
   };
   return(
     
-    <div style={contentStyle}>
-      <div style={galleryStyle}>
-        <div style={studentStyle} >
+    <div style={contentStyle} className="">
+      <div style={galleryStyle} className="">
+        <div style={studentStyle} className="col s3 card">
           <h2 >{props.name}</h2>
           <img style={imageStyle} src={props.photo}/>
           <h5>"{props.quote}"</h5>

@@ -6,7 +6,6 @@ function NavBar(){
   var navBarButton = {
     margin: "0 50px 0 50px",
     display: "inline-block",
-    padding: "14px 16px",
     backgroundColor: "blanchedalmond",
     border: "solid 2px burlywood",
   };
